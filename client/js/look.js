@@ -8,7 +8,8 @@ const usernameInput = document.querySelector("#usernameInput");
 const telephoneInput = document.querySelector("#telephoneInput");
 const foodsForm = document.querySelector("#foodsForm");
 const foodsCount = document.querySelector("#foodsCount");
-const hostName = "http://localhost:5000";
+// const hostName = "http://localhost:5000";
+const hostName = "https://look-2jk0.onrender.com";
 
 function createElements(...array) {
   return array.map((el) => {
