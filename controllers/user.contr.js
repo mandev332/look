@@ -3,6 +3,7 @@ import { UserModel, Op } from "../sync/model.js";
 const POST = async (req, res) => {
   try {
     const { username, contact } = req.body;
+    console.log(username, contact);
     if (!username || !contact) throw new Error("Username or contact not found");
     let newUser = await UserModel.create({
       username,
